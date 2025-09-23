@@ -1,5 +1,5 @@
-import Home from "./scenes/home";
-import NavBar from "./scenes/navbar";
+import Home from "./pages/about";
+import NavBar from "./components/navbar";
 
 function App() {
   return (

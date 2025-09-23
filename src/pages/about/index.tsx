@@ -1,4 +1,4 @@
-export default function Home() {
+export default function About() {
   return (
     <div>
       <h1 className="flex h-full">Welcome to my Porfolio Page</h1>
