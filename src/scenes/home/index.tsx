@@ -1,12 +1,8 @@
-function MyButton({ title }: { title: string }) {
-  return <button>{title}</button>;
-}
-
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to my Porfolio Page</h1>
-      <MyButton title="I'm a button" />
+      <h1 className="flex h-full">Welcome to my Porfolio Page</h1>
+      <h2>My name is Hemanta Regmi</h2>
     </div>
   );
 }
