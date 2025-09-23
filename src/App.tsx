@@ -1,7 +1,13 @@
 import Home from "./scenes/home";
+import NavBar from "./scenes/navbar";
 
 function App() {
-  return <Home></Home>;
+  return (
+    <>
+      <NavBar></NavBar>
+      <Home></Home>
+    </>
+  );
 }
 
 export default App;
