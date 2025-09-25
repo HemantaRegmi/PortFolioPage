@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
-      <Home></Home>
+      <Home></Home>n
     </>
   );
 }
