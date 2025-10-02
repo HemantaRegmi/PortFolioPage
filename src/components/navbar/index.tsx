@@ -1,30 +1,13 @@
+import type { SelectedPage } from "../../shared/types";
+import { Link } from "react-router-dom";
+
 export default function NavBar() {
   return (
     <nav className="flex justify-center space-x-4">
-      <a
-        href="/about"
-        className="font-b rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-      >
-        About
-      </a>
-      <a
-        href="/projects"
-        className="font-b rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-      >
-        Projects
-      </a>
-      <a
-        href="/resume"
-        className="font-b rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-      >
-        Resume
-      </a>
-      <a
-        href="/contact"
-        className="font-b rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-      >
-        Contact
-      </a>
+      <Link to={`/${"about" as SelectedPage}`}>About</Link>
+      <Link to={`/${"contact" as SelectedPage}`}>Contact</Link>
+      <Link to={`/${"projects" as SelectedPage}`}>Projects</Link>
+      <Link to={`/${"resume" as SelectedPage}`}>Resume</Link>
     </nav>
   );
 }
