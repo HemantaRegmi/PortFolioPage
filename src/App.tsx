@@ -6,7 +6,7 @@ import type { SelectedPage } from "./shared/types";
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>Hello World I need to figure out how to get my routes to work</h1>
     </>
   );
 }
