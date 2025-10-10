@@ -1,9 +1,20 @@
-import { nav } from "framer-motion/client";
-import type { SelectedPage } from "../../shared/types";
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <nav>Yo</nav>
+    <nav>
+      <ul>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+        <Link to="/projects">Projects</Link>
+        <li>
+          <Link to="/resume">Resume</Link>
+        </li>
+      </ul>
+    </nav>
   );
 }

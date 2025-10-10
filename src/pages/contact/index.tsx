@@ -5,7 +5,7 @@ export default function Contact() {
         Welcome to my Contact Page
       </h1>
       <>
-        <h2>My name is Hemanta Regmi.</h2>
+        <h2 className="flex justify-center">My name is Hemanta Regmi.</h2>
       </>
     </div>
   );

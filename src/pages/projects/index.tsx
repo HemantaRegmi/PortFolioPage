@@ -5,7 +5,7 @@ export default function Projects() {
         Welcome to my Project Page
       </h1>
       <>
-        <h2>My name is Hemanta Regmi.</h2>
+        <h2 className="flex justify-center">My name is Hemanta Regmi.</h2>
       </>
     </div>
   );

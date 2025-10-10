@@ -1,13 +1,22 @@
-import Home from "./pages/about";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/navbar";
-import type { SelectedPage } from "./shared/types";
+import About from "./pages/about";
+import Resume from "./pages/about";
+import Contact from "./pages/contact";
+import Projects from "./pages/projects";
 
 function App() {
   return (
     <>
-      <NavBar></NavBar>
-      <h1>Hello World I need to figure out how to get my routes to work</h1>
+      <div>
+        <NavBar />
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
     </>
   );
 }
