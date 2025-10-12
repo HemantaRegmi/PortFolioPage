@@ -1,4 +1,4 @@
-export default function About() {
+export default function Resume() {
   return (
     <div>
       <h1 className="flex h-full justify-center ">Welcome to my Resume</h1>
