@@ -17,7 +17,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className=" bg-lightblack py-3.5 px-1">
+    <nav className=" bg-lightblack py-5 px-1">
       <section className="flex justify-between items-center ">
         <Link
           to="/about"
@@ -26,7 +26,7 @@ export default function NavBar() {
           Regmi Portfolio
         </Link>
 
-        <div className="hidden sm:flex space-x-1.5 me-3">
+        <div className="hidden sm:flex spaqce-x-1.5 me-3">
           {navLinks.map((link) => (
             <ul key={link.path}>
               <Link
