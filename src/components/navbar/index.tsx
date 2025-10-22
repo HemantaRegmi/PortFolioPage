@@ -26,7 +26,7 @@ export default function NavBar() {
           Regmi Portfolio
         </Link>
 
-        <div className="hidden sm:flex spaqce-x-1.5 me-3">
+        <div className="hidden sm:flex space-x-1.5 me-3">
           {navLinks.map((link) => (
             <ul key={link.path}>
               <Link

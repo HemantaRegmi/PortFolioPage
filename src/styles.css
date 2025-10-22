@@ -9,7 +9,10 @@
 }
 
 @layer base {
-  html,
+  html {
+    @apply font-mono;
+  }
+
   body {
     @apply bg-white text-black;
   }
