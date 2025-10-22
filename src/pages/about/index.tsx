@@ -39,7 +39,10 @@ export default function About() {
           />
         </div>
         <div className="flex justify-center items-center aspect-square bg-gray-200 rounded-lg ">
-          yo
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
+          hic aliquid architecto perferendis consectetur impedit aliquam
+          voluptatem nesciunt repudiandae perspiciatis iusto debitis sunt
+          doloribus aperiam eum autem, placeat quas voluptatum.
         </div>
       </section>
     </>
